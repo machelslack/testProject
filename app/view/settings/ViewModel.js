@@ -43,6 +43,24 @@ Ext.define('testProject.view.settings.ViewModel', {
                         accountKey: "505466",
                         firstName: "yyy",
                         email: "yyy@xxx.com"
+                    },
+                    {
+                        id: 268383,
+                        accountKey: "new ****** store",
+                        firstName: "123123123",
+                        email: "pat@gmail.com"
+                    },
+                    {
+                        id: 268384,
+                        accountKey: "505465",
+                        firstName: "Jimmy",
+                        email: "jim@test.com"
+                    },
+                    {
+                        id: 268385,
+                        accountKey: "505466",
+                        firstName: "yyy",
+                        email: "yyy@xxx.com"
                     }
                 ]
             },

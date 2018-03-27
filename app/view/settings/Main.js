@@ -8,6 +8,8 @@ Ext.define("testProject.view.settings.Main", {
 
   title: "Settings",
 
+  // layout: 'fit',
+
   // store: {
   //     type: 'customers'
   // },
@@ -47,8 +49,10 @@ Ext.define("testProject.view.settings.Main", {
       dock: "right",
       itemId: "settingsForm",
       width: 500,
-      //layout: 'fit',
-      items: [{}],
+      layout: 'fit',
+      items: [{
+            xtype: 'settingsForm'
+      }],
       hidden: true
     }
   ],
