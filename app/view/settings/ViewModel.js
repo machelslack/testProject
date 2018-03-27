@@ -19,6 +19,10 @@ Ext.define('testProject.view.settings.ViewModel', {
                 {
                     id: 456456,
                     name : 'USA'    
+                },
+                {
+                    id: 456434,
+                    name : 'NZL'    
                 }
             ]
         },
@@ -28,39 +32,45 @@ Ext.define('testProject.view.settings.ViewModel', {
             data: [
                     {
                         id: 268380,
-                        accountKey: "new ****** store",
+                        accountKey: "Pat -GB",
                         firstName: "123123123",
-                        email: "pat@gmail.com"
+                        email: "pat@gmail.com",
+                        country : "GB"
                     },
                     {
                         id: 268381,
                         accountKey: "505465",
-                        firstName: "Jimmy",
-                        email: "jim@test.com"
+                        firstName: "Jimmy - GB",
+                        email: "jim@test.com",
+                        country : "GB"
                     },
                     {
                         id: 268382,
                         accountKey: "505466",
-                        firstName: "yyy",
-                        email: "yyy@xxx.com"
+                        firstName: "yyy - NZL",
+                        email: "yyy@xxx.com",
+                        country : "NZL"
                     },
                     {
                         id: 268383,
-                        accountKey: "new ****** store",
+                        accountKey: "Patty - USA",
                         firstName: "123123123",
-                        email: "pat@gmail.com"
+                        email: "pat@gmail.com",
+                        country : "USA"
                     },
                     {
                         id: 268384,
                         accountKey: "505465",
-                        firstName: "Jimmy",
-                        email: "jim@test.com"
+                        firstName: "Johnny - GB",
+                        email: "jim@test.com",
+                        country : "GB",
                     },
                     {
                         id: 268385,
                         accountKey: "505466",
-                        firstName: "yyy",
-                        email: "yyy@xxx.com"
+                        firstName: "yyy - USA",
+                        email: "yyy@xxx.com",
+                        country : "USA"
                     }
                 ]
             },

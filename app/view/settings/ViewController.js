@@ -22,9 +22,23 @@ Ext.define("testProject.view.main.ViewController", {
 
     form.loadRecord(record);
 
+    //console.log(record)
     
     //console.log(RowModel.view.up('settings').down('settingsForm'))
-    console.log(RowModel)
+    console.log('this ' , this)
+     console.log('RowModel ', RowModel)
+     console.log('RowModel.view ', RowModel.view)
+     console.log('RowModel.view.up(settings) ', RowModel.view.up('settings'))
+     console.log('RowModel.view.up(settings).down(settingsForm) ', form)
+
+  },
+
+  selectCountry : function  ( combo, record, eOpts ) {
+    
+    var viewModel = this.getViewModel(),
+    store = viewModel.getStore('secondgroup');
+    //debugger;
+    store.filter('country', record.data.name )
 
   }
 

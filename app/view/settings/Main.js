@@ -26,6 +26,9 @@ Ext.define("testProject.view.settings.Main", {
       items: [
         {
           xtype: "combobox",
+          listeners: {
+            select: 'selectCountry'
+          },
           bind: {
             store: "{countries}"
           },
