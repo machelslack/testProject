@@ -92,13 +92,13 @@ Ext.define('testProject.view.main.Main', {
         title: 'Groups',
         iconCls: 'fa-users',
         items: [{
-            xtype: 'mainlist1'
+            xtype: 'groups'
         }]
     }, {
         title: 'Settings',
         iconCls: 'fa-cog',
         items: [{
-            xtype: 'secondlist'
+            xtype: 'settings'
         }]
 
         

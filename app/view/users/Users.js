@@ -7,7 +7,7 @@ Ext.define('testProject.view.users.Users', {
     requires: [
         'testProject.store.Customers'
     ],
-    title: 'Personnel',
+    title: 'Users',
     controller: 'users',
     store: {
         type: 'customers'
@@ -47,9 +47,7 @@ Ext.define('testProject.view.users.Users', {
                 text: 'Add new user',
                 handler: 'onClickNewUser'
             }
-
-            ]
-        },
+            ]},
         {
             xtype: 'container',
             //style: 'background-color:red;',

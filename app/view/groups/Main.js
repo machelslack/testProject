@@ -1,15 +1,15 @@
 /**
  * This view is an example list of people.
  */
-Ext.define('testProject.view.main.List1', {
+Ext.define('testProject.view.groups.Main', {
     extend: 'Ext.grid.Panel',
-    xtype: 'mainlist1',
+    xtype: 'groups',
 
     requires: [
         'testProject.store.Personnel'
     ],
 
-    title: 'Personnel',
+    title: 'Groups',
 
     // store: {
     //     type: 'groups'
