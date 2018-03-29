@@ -1,4 +1,4 @@
-Ext.define('testProject.store.Customers1', {
+Ext.define('testProject.store.groups', {
     extend: 'Ext.data.Store',
 
     alias: 'store.groups',

@@ -1,4 +1,4 @@
-Ext.define("testProject.view.main.ViewController", {
+Ext.define("testProject.view.settings.ViewController", {
   extend: "Ext.app.ViewController",
 
   alias: "controller.settings",

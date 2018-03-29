@@ -98,9 +98,17 @@ Ext.define('testProject.view.main.Main', {
         title: 'Settings',
         iconCls: 'fa-cog',
         items: [{
-            xtype: 'settings'
+            xtype: 'settings',
+     
         }]
+    },
+    {
+        title: 'Clients',
+        iconCls: 'fa-users',
+        items: [{
+            xtype: 'clients'
+        }]
+    }
 
-        
-    }]
+]
 });

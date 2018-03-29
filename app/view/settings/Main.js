@@ -8,7 +8,7 @@ Ext.define("testProject.view.settings.Main", {
 
   title: "Settings",
 
-  // layout: 'fit',
+  layout: 'fit',
 
   // store: {
   //     type: 'customers'
@@ -18,7 +18,6 @@ Ext.define("testProject.view.settings.Main", {
   bind: {
     store: "{secondgroup}"
   },
-
   dockedItems: [
     {
       xtype: "toolbar",
